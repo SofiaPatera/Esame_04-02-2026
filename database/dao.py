@@ -17,6 +17,9 @@ class DAO:
         conn.close()
         return result
 
+
+
+
     @staticmethod
     def leggi_nodi(role):
         conn = DBConnect.get_connection()
