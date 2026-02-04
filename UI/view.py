@@ -40,7 +40,7 @@ class View:
         self.txt_title = ft.Text("Gestione Artisti", size=30, weight=ft.FontWeight.BOLD)
 
         self.dd_ruolo = ft.Dropdown(label="Seleziona ruolo artista", width=250)
-
+        self._controller.handle_dd_ruolo()
         self.dd_iniziale = ft.Dropdown(label="Artista Iniziale", width=250, disabled=True)
 
         self.input_L = ft.TextField(label="Lunghezza cammino", width=200, value="3")
